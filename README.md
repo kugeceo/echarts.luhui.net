@@ -1,6 +1,20 @@
 ECharts
 =======
-百度 (中文) : http://echarts.baidu.com
+百度 (中文) : 
+http://tubiao.luhui.net
+Primary domain
+
+http://tubiao.netlify.app
+Default subdomain
+
+http://echarts.luhui.net
+Domain alias
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/314b5eb4-49b7-4fd1-91a9-4e305f1c3913/deploy-status)](https://app.netlify.com/sites/tubiao/deploys)
+
+http://echarts.netlify.app/
+
+http://charts.netlify.app/
 
 在线视频教程：http://study.163.com/course/courseMain.htm?courseId=1016007
 
