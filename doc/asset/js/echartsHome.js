@@ -55,8 +55,8 @@ switch (curPage) {
 // Those pages only exist in echarts-www project,
 // but not in http://ecomfe.github.io/echarts/ and doc in echarts project.
 if (location.href.indexOf('.baidu.com') < 0) {
-    loc.option = 'http://echarts.baidu.com/doc';
-    loc.spreadsheet = 'http://echarts.baidu.com/doc';
+    loc.option = '/doc';
+    loc.spreadsheet = '/doc';
 }
 
 $('#head')[0].innerHTML =
@@ -68,7 +68,7 @@ $('#head')[0].innerHTML =
             + '<span class="icon-bar"></span>'
             + '<span class="icon-bar"></span>'
           + '</button>'
-          + '<a class="navbar-brand" href="http://echarts.baidu.com/index'
+          + '<a class="navbar-brand" href="/index'
           + (enVersion ? '-en': '')
           + '.html">ECharts</a>'
         + '</div>'
@@ -122,7 +122,7 @@ $('#head')[0].innerHTML =
               + '<a href="#" class="dropdown-toggle" data-toggle="dropdown">' + (enVersion ? 'Download' : '下载') + '<b class="caret"></b></a>'
               + '<ul class="dropdown-menu">'
                 + '<li><a href="http://echarts.baidu.com/build/echarts-' + version + '.zip"> echarts-' + version + ' (from Baidu)</a></li>'
-                + '<li><a href="https://github.com/ecomfe/echarts/archive/' + version + '.zip"> echarts-' + version + ' (from GitHub)</a></li>'
+                + '<li><a href="https://echarts.luhui.net/' + version + '.zip"> echarts-' + version + ' (from GitHub)</a></li>'
                 + '<li><a href="http://echarts.baidu.com/build/echarts-m-1.0.0.zip"> echarts-m-1.0.0 (beta)</a></li>'
                 + '<li><a href="http://echarts.baidu.com/x/build/echarts-x-0.2.0.zip"> echarts-x-0.2.0 </a></li>'
                 + '<li class="divider"></li>'
